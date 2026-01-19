@@ -48,15 +48,15 @@ nav{
 
      section .home-about{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 
    padding-top: 10%;
      
      }
      .home-about .imge img{
-        width: 350px;
-        border-radius: 50%;
+        width: 300px;
+        border-radius: 30px;
         box-shadow:rgba(234, 172, 1, 0.678) 7px 7px 30px 5px; 
      }
 
@@ -85,27 +85,25 @@ nav{
         color: #969494f8;
         font-size: 20px;
      }
-
-     section .home-about .contact{
-        /* background-color: #834b4b; */
-        display: flex;
-        justify-content: space-evenly;
-        margin-top: 40px;
-     }
+ section .home-about .contact{
+    margin-top: 40px;
+ }
+    
      section .home-about .contact i{
        font-size: 22px;
        transition: .7s;
+       margin-right: 40px;
        
      }
-     .fa-facebook:hover{
+     .contact .fa-facebook:hover{
         color: rgba(22, 125, 235, 0.885);
         transform: translatey(10px);
      }
-       .fa-instagram:hover{
+      .contact .fa-instagram:hover{
         color: rgba(150, 69, 75, 0.885);
         transform: translatey(10px);
      }
-       .fa-whatsapp:hover{
+      .contact .fa-whatsapp:hover{
         color: rgba(0, 158, 32, 0.885);
         transform: translatey(10px);
      }
@@ -200,7 +198,7 @@ nav{
         /* background-color: #ffffff; */
         padding: 40px;
         border-radius: 20px;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.864);
     }
 
     .form-box h2 {
@@ -219,7 +217,34 @@ nav{
         font-size: 1.1rem;}
 
         .imge-o img{
+            width: 330px;
+        
             border-radius: 10px;
         }
+
+
+        .footer .foter-link{
+            color: white;
+            transition: .5s;
+        }
+        .footer .foter-link:hover{
+            color: firebrick;
+        }
+        .contact-foter i{
+            margin-right: 40px;
+            transition: .5s;
+        }
+        .contact-foter .fa-facebook:hover{
+        color: rgba(22, 125, 235, 0.885);
+        
+     }
+      .contact-foter .fa-instagram:hover{
+        color: rgba(150, 69, 75, 0.885);
+       
+     }
+      .contact-foter .fa-whatsapp:hover{
+        color: rgba(0, 158, 32, 0.885);
+        
+     }
 
                              
