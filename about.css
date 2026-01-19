@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: #fff;
+    
+}
+body{
+    background: #000;
+    scroll-behavior: smooth;
+}
+a,
+ul li {
+    text-decoration: none;
+}
+
+
+             /* start nav */
+nav{ 
+    
+    position: sticky;
+    background: inherit;
+    width: 80%;
+    margin:15px  auto 0;
+    height: 50px;
+    padding: 10px 30px;
+   z-index: 999999;
+   top: 10px;
+    border-radius: 30px;
+    box-shadow: rgba(255, 253, 253, 0.5) 1px 1px 40px 2px;
+}
+
+
+
+/* end nav */
+
+                         /* start header */
+     section{
+        width: 80%;
+        height: calc(100vh - 70px);
+     
+        margin: auto;
+    
+        padding: 0 30px;
+        
+        
+     }
+
+     section .home-about{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+   padding-top: 10%;
+     
+     }
+     .home-about .imge img{
+        width: 300px;
+        border-radius: 10px;
+        box-shadow:rgba(234, 172, 1, 0.678) 3px 3px 10px 3px; 
+     }
+
+     section .home-about .info{
+        max-width: 450px;
+        border-right: 2px double firebrick;
+        padding-right: 40px;
+     }
+     section .home-about .info h2{
+        font-size: 30px;
+        text-transform: capitalize;
+        font-family: ' sans-serif';
+        letter-spacing: 2px;
+        color: rgb(204, 204, 204);
+        
+     }
+     section .home-about .info h1{
+        font-size: 40px;
+        text-transform: uppercase;
+        letter-spacing: 3px;
+        font-family: "Kaisei Tokumin", serif;
+        margin: 6px 0 20px;
+     }
+     section .home-about .info p{
+        letter-spacing: 2px;
+        color: #969494f8;
+        font-size: 20px;
+     }
+ section .home-about .contact{
+    margin-top: 40px;
+ }
+    
+     section .home-about .contact i{
+       font-size: 22px;
+       transition: .7s;
+       margin-right: 40px;
+       
+     }
+     .contact .fa-facebook:hover{
+        color: rgba(22, 125, 235, 0.885);
+        transform: translatey(10px);
+     }
+      .contact .fa-instagram:hover{
+        color: rgba(150, 69, 75, 0.885);
+        transform: translatey(10px);
+     }
+      .contact .fa-whatsapp:hover{
+        color: rgba(0, 158, 32, 0.885);
+        transform: translatey(10px);
+     }
+                             /* title */
+                             .title h2{
+                                color:firebrick ;
+                                font-weight: 600;
+                                font-size: 30px;
+                               text-transform: uppercase;
+                               padding-bottom: 7px;
+                               border-left: 2px solid rgb(146, 146, 146);
+                               font-family: 'sans';
+                               padding-left: 30px;
+
+                              /* margin: auto; */
+                               /* box-shadow: rgba(255, 253, 253, 0.5) 7px 7px 30px 5px;  */
+
+                             }
+                             .title{      
+                                 display: flex;
+                               justify-content: center;
+                                 padding-bottom: 60px;
+                                 
+
+                             }
+                           
+                             .section-title {
+            text-align: center;
+            margin: 60px 0;
+            font-size: 2.5rem;
+            color: red;
+            font-weight: bold;
+            font-family: "sans";
+        }
+
+        .project-card {
+            background-color: #111;
+            border: 1px solid #a4a4a4a8;
+            border-radius: 15px;
+            padding: 15px;
+            transition: 0.3s;
+            height: 100%;
+        }
+
+        .project-card:hover {
+            transform: translateY(-8px);
+            border-color: red;
+        }
+
+        .project-card img {
+            width: 100%;
+            border-radius: 10px;
+            height: 180px;
+            object-fit: cover;
+        }
+
+        .project-title {
+            margin-top: 15px;
+            font-size: 1.3rem;
+            font-weight: bold;
+        }
+
+        .project-desc {
+            color: #aaa;
+            font-size: 0.95rem;
+            margin: 10px 0;
+        }
+
+        .btn-visit {
+            background-color: #fff;
+            color: #000;
+            border-radius: 20px;
+            padding: 5px 25px;
+            font-size: 0.9rem;
+        }
+
+        .btn-visit:hover {
+            background-color: red;
+            color: #fff;}
+
+                          
+
+            .contact-section {
+            min-height: 100vh;
+        }
+
+        .contact-img img {
+            width: 60%;
+            height: 52%;
+            object-fit: cover;}
+            .form-box {
+        /* background-color: #ffffff; */
+        padding: 40px;
+        border-radius: 20px;
+        box-shadow: 0 10px 30px rgba(255, 255, 255, 0.864);
+    }
+
+    .form-box h2 {
+        font-weight: bold;
+        margin-bottom: 25px;
+    }
+
+    .form-control {
+        border-radius: 10px;
+        padding: 12px;
+    }
+
+    .btn-custom {
+        border-radius: 25px;
+        padding: 10px;
+        font-size: 1.1rem;}
+
+        .imge-o img{
+            width: 330px;
+        
+            border-radius: 10px;
+        }
+
+
+        .footer .foter-link{
+            color: white;
+            transition: .5s;
+        }
+        .footer .foter-link:hover{
+            color: firebrick;
+        }
+        .contact-foter i{
+            margin-right: 40px;
+            transition: .5s;
+        }
+        .contact-foter .fa-facebook:hover{
+        color: rgba(22, 125, 235, 0.885);
+        
+     }
+      .contact-foter .fa-instagram:hover{
+        color: rgba(150, 69, 75, 0.885);
+       
+     }
+      .contact-foter .fa-whatsapp:hover{
+        color: rgba(0, 158, 32, 0.885);
+        
+     }
+
+                             
+
+     .contact-form{
+        padding: 20px 20px;
+        border-radius: 20px;
+        box-shadow: 0px 0px 6px rgba(255, 255, 255, 0.353); ;
+     }
